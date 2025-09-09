@@ -34,6 +34,10 @@ body {
     margin: 0 auto;
 }
 
+.future-container.container {
+min-width: 1128px;
+}
+
 /* Логотип */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -70,7 +74,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1128px;
+    max-width: 1158px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -138,6 +142,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    min-width: 496px;
     width: 100%;
     margin: 0 auto;
     height: 1440px;
@@ -172,8 +177,17 @@ body {
     border: none;
     min-width: 169px;
     height: 56px;
-    
+}
 
+.nothing-text {
+    visibility: hidden;
+}
+
+.text-advantages {
+display: flex;
+align-items: baseline;
+gap: 24px;
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .main-button:hover,
@@ -181,6 +195,11 @@ body {
     background-color: #404BBF;
 }
 
+.future-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: 0;
+}
 /* Тексти */
 .portfolio-style,
 .team-main-style,
@@ -218,10 +237,7 @@ body {
 .text-advantages,
 .team-name {
     color: #434455;
-}
 
-.footer-text {
-    color: #f4f4fd;
 }
 
 /* Секції */
@@ -239,6 +255,18 @@ body {
 
 .page-footer {
     background: #2e2f42;
+}
+
+.logo .footer-logo {
+    padding-top: 100px;
+}
+
+.footer-text {
+    color: #f4f4fd;  
+    max-width: 264px;
+    padding-bottom: 100px;
+    margin-top: 16px;
+    
 }
 
 
