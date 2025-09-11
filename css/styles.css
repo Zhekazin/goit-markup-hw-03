@@ -282,7 +282,6 @@ padding-bottom: 120px;
 .team-all{
     display: flex;
     gap: 24px;
-    border-top-right-radius: 0px;
     border-radius: 0px 0px 4px 4px;
 }
 .team-back {
@@ -292,10 +291,8 @@ padding-bottom: 120px;
 }
 
 .team-box {
-    padding-top: 32px;
-    padding-bottom: 32px;
     text-align: center;
- 
+    padding: 32px 16px
 }
 /*  */
 
@@ -310,6 +307,8 @@ padding-bottom: 120px;
     padding-bottom: 32px;
     padding-left: 16px;
     border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+
 }
 
 .portfolio-all {
