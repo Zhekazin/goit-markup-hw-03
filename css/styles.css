@@ -265,6 +265,7 @@ padding-bottom: 120px;
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-all{
     display: flex;
@@ -273,6 +274,7 @@ padding-bottom: 120px;
 .team-back {
     background-color: #fff;
     flex-basis: calc((100% - 72px) / 4);
+    display: block;
 }
 
 .team-box {
@@ -284,8 +286,7 @@ padding-bottom: 120px;
 .portfolio-section {
     padding-bottom: 120px;
     padding-top: 120px;
-
-
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-box {
