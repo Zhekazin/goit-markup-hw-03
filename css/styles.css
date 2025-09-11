@@ -146,6 +146,9 @@ min-width: 1128px;
     width: 100%;
     margin: 0 auto;
     height: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+        
 }
 
 .main-title-section {
@@ -158,6 +161,7 @@ min-width: 1128px;
     padding: 472px 188px 472px 292px;
     height: 120px;
     margin: 0 auto;
+    min-width: 496px;
 }
 
 /* Кнопка */
@@ -244,9 +248,16 @@ flex-basis: calc((100% - 72px) / 4);
 .team-section {
     background-color: #f4f4fd;
 }
-
+.team-all{
+    display: flex;
+}
 .team-back {
     background-color: #fff;
+}
+
+.portfolio-all {
+display: flex;
+flex-wrap: ;
 }
 
 .back-portfolio {
@@ -255,16 +266,18 @@ flex-basis: calc((100% - 72px) / 4);
 
 .page-footer {
     background: #2e2f42;
+    padding-top: 188px;
+    
 }
 
 .logo .footer-logo {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
     color: #f4f4fd;  
     max-width: 264px;
-    padding-bottom: 100px;
     margin-top: 16px;
     
 }
