@@ -311,7 +311,8 @@ border-top: none;
 .portfolio-all {
     display: flex;
     flex-wrap: wrap ;
-gap: 48px 24px;
+    gap: 48px 24px;
+    margin-bottom: 32px;
 }
 
 .back-portfolio {
