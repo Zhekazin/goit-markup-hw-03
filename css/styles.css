@@ -304,16 +304,14 @@ border-top: none;
 }
 
 .portfolio-box {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    border: 1px solid #e7e9fc;
-    padding: 32px 16px;
-
+.portfolio-box {
+        border: 1px solid #e7e9fc;
+        padding: 32px 16px;
+    }
 }
 
 .portfolio-all {
-   display: flex;
+display: flex;
 flex-wrap: wrap ;
 gap: 48px 24px;
 }
