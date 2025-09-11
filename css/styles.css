@@ -232,6 +232,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
+/* Portfolio */
 
 .portfolio-discription,
 .team-chapter,
@@ -242,7 +243,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-
+    padding: 32px 16px;
 }
 
 .portfolio-name,
@@ -273,6 +274,7 @@ padding-bottom: 120px;
     display: flex;
     gap: 24px;
     border-top-right-radius: 0px;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-back {
     background-color: #fff;
@@ -283,12 +285,14 @@ padding-bottom: 120px;
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
+/*  */
 
 .portfolio-section {
     padding-bottom: 120px;
     padding-top: 120px;
-    
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-box {
@@ -308,6 +312,7 @@ gap: 48px 24px;
     flex-basis: ((100% - 48px) / 3);
 }
 
+/*   */
 .page-footer {
     background: #2e2f42;
     display: flex;
@@ -317,12 +322,12 @@ gap: 48px 24px;
 
 .footer-logo {
 display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-text {
     color: #f4f4fd;  
     max-width: 264px;
-    margin-top: 16px;
     margin: 0;
 }
 
