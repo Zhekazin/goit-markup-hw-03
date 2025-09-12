@@ -84,7 +84,6 @@ min-width: 1128px;
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .nav-list {
@@ -240,8 +239,6 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    padding-left: 16px;
-
 }
 
 .portfolio-name {
@@ -249,9 +246,7 @@ padding-bottom: 120px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-left: 16px;
 }
-
 
 .text-advantages,
 .team-name,
